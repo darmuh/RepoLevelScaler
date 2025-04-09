@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REPOLevelScaler", "REPOLevelScaler.csproj", "{96430A85-1F3C-4A5C-B4DD-1285FBB50CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96430A85-1F3C-4A5C-B4DD-1285FBB50CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96430A85-1F3C-4A5C-B4DD-1285FBB50CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96430A85-1F3C-4A5C-B4DD-1285FBB50CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96430A85-1F3C-4A5C-B4DD-1285FBB50CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38834E6-FCCE-4E01-ACC9-CE370B05BF5D}
+	EndGlobalSection
+EndGlobal

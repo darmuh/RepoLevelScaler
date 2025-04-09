@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	<LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>embedded</DebugType>
+	<PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)'))=./</PathMap>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="nickklmao-MenuLib" Version="2.2.0" />
+    <PackageReference Include="R.E.P.O.GameLibs.Steam" Version="0.1.2-ngd.0" Publicize="true" />
+    <PackageReference Include="Zehs.REPOLib" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
